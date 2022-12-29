@@ -1,5 +1,7 @@
 package lesson2;
 
+//imc project
+
 import java.util.Scanner;
 
 public class Main {
@@ -16,5 +18,6 @@ public class Main {
 
         System.out.println("O seu IMC é: " + (weight / Math.pow(height, 2)));
 
+        scanner.close();
     }
 }
